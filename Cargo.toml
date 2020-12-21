@@ -1,0 +1,11 @@
+[package]
+name = "advent-of-code-2020"
+version = "0.1.0"
+authors = ["Rune Carlsen <rc@emendo.com>"]
+edition = "2018"
+
+[[bin]]
+name = "solutions"
+path = "solutions/main.rs"
+
+[dependencies]
