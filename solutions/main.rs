@@ -1,9 +1,9 @@
 pub mod helpers;
 
-mod day18;
+mod day20;
 
 fn main() {
-    match day18::solve() {
+    match day20::solve() {
         Ok(_) => println!("Done!"),
         Err(e) => println!("Error: {}", e)
     }
